@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: '/home/deploy/tema/.env' })
 const TelegramBot = require('node-telegram-bot-api')
 var generateName = require('sillyname');
 
