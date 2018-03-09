@@ -1,0 +1,29 @@
+{
+  "name": "tema",
+  "version": "1.0.0",
+  "description": "telegram anonymous reviews bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backmeupplz/tema.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "reviews",
+    "independent",
+    "journalism"
+  ],
+  "author": "backmeupplz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/backmeupplz/tema/issues"
+  },
+  "homepage": "https://github.com/backmeupplz/tema#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
