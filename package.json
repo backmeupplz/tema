@@ -4,7 +4,7 @@
   "description": "telegram anonymous reviews bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/backmeupplz/tema#readme",
   "dependencies": {
-    "node-telegram-bot-api": "^0.30.0"
+    "dotenv": "^5.0.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "sillyname": "^0.1.0"
   }
 }
